@@ -1,0 +1,14 @@
+﻿/****************************************************************************
+	Tweet
+****************************************************************************/
+.tweet-wrapper { padding: 10px 0px; overflow: hidden; }
+.tweet-wrapper .span12 { position: relative; }
+
+.tweet { padding: 0px 70px; background: url(../Images/SVtweet.png) no-repeat left;  background-position: 0px 0px; }
+.tweet p { font:14px 'gotham_roundedlight',Times New Roman, Times, serif; color: #000000; line-height: 48px; width: 100%; margin-left: 70px;    }
+.tweet p a { color: #fff; }
+
+a.tweet-r { background: url(../Images/tweet-r.png) no-repeat; width:13px; height: 20px; display: inline-block; position: absolute; top: 16px; right: 0px; z-index:999; }
+a.tweet-l { background: url(../Images/tweet-l.png) no-repeat; width:13px; height: 20px; display: inline-block; position: absolute; top: 16px; right: 16px; z-index:999; }
+
+/****************************************************************************/

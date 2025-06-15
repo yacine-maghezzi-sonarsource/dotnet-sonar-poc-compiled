@@ -1,0 +1,16 @@
+
+/* CSS Document for SaudiA Seattle*/
+@import 'SaudiACommon.css';
+.ms-core-overlay
+{
+	background-color: rgb(237, 231, 221);
+}
+.ms-siteicon-a, .ms-siteicon-img
+{
+	max-width: 300px;
+}
+
+#s4-bodyContainer
+{
+padding: 10px;
+}

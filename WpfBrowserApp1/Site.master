@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title>PNR info</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <link href="CSS/eStaff.css" rel="stylesheet" />
+    <link href="CSS/SVNewTP.css" rel="stylesheet" />
+
+
+</head>
+
+<body style="background-color: #ffffff;">
+
+    <form id="Form1" runat="server">
+        <asp:ScriptManager runat="server">
+        </asp:ScriptManager>
+        <div class="container " style="background-color: #F8F8F8;">
+<%--            <asp:Image ID="Image1"  runat="server" CssClass="responsive d-none d-sm-none d-md-none d-lg-block" ImageUrl="Images/eBizHeader.png" />
+            <asp:Image ID="Image2" runat="server" CssClass="responsive d-md-block d-lg-none" ImageUrl="Images/StaffBooking_Mobile-01.png" />--%>
+            <img alt="" src="Images/eBizHeader.png" class=" img-fluid  d-none d-sm-none d-md-none d-lg-block" />
+            <img alt="" src="Images/StaffBooking_Mobile-01.png" class="img-fluid responsive d-md-block d-lg-none" />
+
+
+
+            <%--===========--%>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <%--<div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.aspx" target="_blank" style="font-family: 'Trebuchet MS'; color: #1D1760; font-weight: bold; font-size: large; border-bottom: solid; border-bottom-width: thin; border-bottom-color: #DFDFDF; text-decoration: none;">Reissue request</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.saudia.com/" target="_blank" style="font-family: 'Trebuchet MS'; color: #1D1760; font-weight: bold; font-size: large; border-bottom: solid; border-bottom-width: thin; border-bottom-color: #DFDFDF; text-decoration: none;">Saudia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.saudia.com/help/useful-links/legal-and-terms-and-conditions" target="_blank" style="font-family: 'Trebuchet MS'; border-bottom: solid; border-bottom-width: thin; border-bottom-color: #DFDFDF; color: #1D1760; font-weight: bold; font-size: large; text-decoration: none;">Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.saudia.com/help/contact-us/call-centers" target="_blank" style="font-family: 'Trebuchet MS'; color: #1D1760; font-weight: bold; font-size: large; border-bottom: solid; border-bottom-width: thin; border-bottom-color: #DFDFDF; text-decoration: none;">Call Centers</a>
+                        </li>
+                    </ul>
+                </div>--%>
+            </nav>
+            <%--===========--%>
+        </div>
+
+
+        <div class="container" style="background-color: #F8F8F8;">
+
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+        </div>
+
+        <div class="container" style="background-color: #F8F8F8;">
+            ©  <%: DateTime.Now.Year %> - Saudia Airlines
+        </div>
+    </form>
+</body>
+</html>

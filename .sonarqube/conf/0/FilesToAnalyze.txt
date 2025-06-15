@@ -1,0 +1,7 @@
+﻿C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\App.xaml.cs
+C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Page1.xaml.cs
+C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Properties\AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Properties\Resources.resx
+C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Properties\Settings.settings
+C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Properties\app.manifest
+C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\WpfBrowserApp1_TemporaryKey.pfx

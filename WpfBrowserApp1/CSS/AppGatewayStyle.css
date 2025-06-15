@@ -1,0 +1,133 @@
+﻿
+.PositionRelative {
+    position: relative;
+    cursor: default;
+}
+
+.PositionAbsolute {
+    position: absolute;
+    cursor: default;
+}
+
+.PositionRelativeTop {
+    top: 10px;
+}
+
+.PositionRelativeMiddle {
+    top: 210px;
+}
+
+.PositionRelativeBottom {
+    top: 410px;
+}
+
+.PositionRelativeLeft {
+    left: 10px;
+}
+
+.PositionRelativeCenter {
+    left: 220px;
+}
+
+.PositionRelativeCenterOdd {
+    left: 210px;
+}
+
+.PositionRelativeCenterEven {
+    left: 410px;
+}
+
+.PositionRelativeRight {
+    left: 420px;
+}
+
+.PositionRelativeRightOdd {
+    left: 410px;
+}
+
+.PositionRelativeRightEven {
+    left: 610px;
+}
+
+
+.BigTile {
+}
+
+.SmallTile {
+}
+
+.sizeSmall {
+    width: 190px;
+    height: 190px;
+    font-weight: bold;
+    z-index: 2;
+    vertical-align: central;
+}
+
+.sizeLarge {
+    width: 390px;
+    height: 190px;
+    font-weight: bold;
+    z-index: 2;
+    vertical-align: central;
+}
+
+    .sizeLarge p, .sizeSmall p {
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: large;
+        font-family: 'gotham_roundedmedium',Times New Roman, Times, serif !important;        
+        color: white !important;
+        text-transform:uppercase;
+    }
+
+    .sizeLarge div, .sizeSmall div {
+        position:absolute;
+        bottom:5px;
+        right:5px;
+    }
+
+.sizeFlyout {
+    width: 0px;
+    height: 0px;
+    font-weight: bold;
+    z-index: 5;
+    display: none;
+    margin: 0 auto;
+    float: none;
+}
+
+    .sizeFlyout div {
+        padding-left: 50px;
+        padding-top: 20px;
+        line-height: 300%;
+    }
+
+    .sizeFlyout p {
+        text-align:center;
+        padding-top:20px;
+        font-size: large;
+        font-family: 'gotham_roundedmedium',Times New Roman, Times, serif !important;        
+        color: white !important;
+        text-transform:uppercase;
+    }
+        .sizeFlyout div a {
+            text-decoration: none;
+            color:white;
+        }
+        .sizeFlyout div ul li {
+          background: url(../Images/star.png) no-repeat left center;
+          padding-left: 35px;     
+          list-style: none;
+          margin: 0;
+        }
+
+.DivFirst {
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 810px;
+    height: 610px;
+    z-index: 1;
+    position: absolute;
+}

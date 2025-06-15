@@ -1,0 +1,9 @@
+ˆ
+}C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.csutf-8`
+UC:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\obj\Debug\App.g.csutf-8b
+WC:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\obj\Debug\Page1.g.csutf-8m
+bC:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Properties\Settings.Designer.csutf-8n
+cC:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Properties\Resources.Designer.csutf-8f
+]C:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Properties\AssemblyInfo.csutf-8Y
+PC:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\Page1.xaml.csutf-8W
+NC:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\App.xaml.csutf-8

@@ -1,0 +1,43 @@
+﻿select {
+    font-size: 50px;
+}
+
+.TPHeaderLabel {
+    color: #9E7498 !important;
+}
+
+.TPfieldsetLabel {
+    color: #1D1760 !important;
+}
+
+
+.FlatButton {
+    background-color: #DFDFDF !important;
+    border-color: #808182 !important;
+    color: #5C5C5C !important;
+    border: none !important;
+    border-width: 1px !important;
+    color: #5C5C5C !important;
+    padding: 5px 5px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    box-shadow: 3px 3px #808182 !important;
+}
+
+fieldset {
+    border-color: #9E7498 !important;
+    border-width: thin !important;
+    border-style: solid !important;
+    background-color: #F0F0F0 !important;
+    text-align: center !important;
+}
+
+.TPCheckBox {
+    color: #517891 !important;
+    font-size: medium !important;
+    text-decoration: none !important;
+    font-style: normal !important;
+    font-family: 'Trebuchet MS' !important;
+}

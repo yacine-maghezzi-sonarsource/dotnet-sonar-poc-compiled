@@ -1,0 +1,1 @@
+fRXC:\Users\hasan\OneDrive\Desktop\test\WpfBrowserApp1\WpfBrowserApp1\WpfBrowserApp1.csprojò	CSharp7_3

@@ -1,0 +1,13 @@
+º
+"WpfBrowserApp1.Properties.Settings,System.Configuration.ApplicationSettingsBase!System.Configuration.SettingsBaseobject;
+
+Settings()-WpfBrowserApp1.Properties.Settings.Settings()‘
+WpfBrowserApp1.Page1System.Windows.Controls.PageSystem.Windows.FrameworkElementSystem.Windows.UIElementSystem.Windows.Media.VisualSystem.Windows.DependencyObject)System.Windows.Threading.DispatcherObjectobject)System.Windows.Markup.IComponentConnector'
+Page1()WpfBrowserApp1.Page1.Page1()C
+InitializeComponent()*WpfBrowserApp1.Page1.InitializeComponent()•
+>System.Windows.Markup.IComponentConnector.Connect(int, object)SWpfBrowserApp1.Page1.System.Windows.Markup.IComponentConnector.Connect(int, object)É
+WpfBrowserApp1.AppSystem.Windows.Application)System.Windows.Threading.DispatcherObjectobject!
+App()WpfBrowserApp1.App.App()A
+InitializeComponent()(WpfBrowserApp1.App.InitializeComponent()m
+#WpfBrowserApp1.Properties.Resourcesobject>
+Resources()/WpfBrowserApp1.Properties.Resources.Resources()

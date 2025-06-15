@@ -1,0 +1,6 @@
+projectKey=DISPLAY_PNR_CLIENT_COMPILED
+serverUrl=https://sonarv10.jawda.ismena.me
+serverVersion=10.8.1.101195
+dashboardUrl=https://sonarv10.jawda.ismena.me/dashboard?id=DISPLAY_PNR_CLIENT_COMPILED
+ceTaskId=20265f42-03f5-4a38-9265-4384c25bda65
+ceTaskUrl=https://sonarv10.jawda.ismena.me/api/ce/task?id=20265f42-03f5-4a38-9265-4384c25bda65

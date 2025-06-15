@@ -1,0 +1,21 @@
+﻿.textBoxLong {
+    width: 400px !important;
+}
+
+.textBoxMid {
+    width: 210px !important;
+}
+
+.textBoxShort {
+    width:100px !important;
+}
+
+.dropDownLong {
+     width: 400px !important;
+}
+.dropDownMid {
+     width: 210px !important;
+}
+.dropDownShort {
+     width:100px !important;
+}

@@ -1,0 +1,128 @@
+﻿
+.banner {
+    position: relative;
+    overflow: auto;
+    border: none;
+}
+
+    .banner li {
+        list-style: none;
+    }
+
+    .banner ul li {
+        float: left;
+    }
+
+.banner {
+    width: 700px;
+    max-height: 383px;
+    min-height: 383px;
+    overflow: hidden;
+    /*margin-left: 5px;*/
+    vertical-align: middle;
+}
+
+    .banner img {        
+        overflow: hidden;
+        border-radius: 4px;
+        margin-top: 25px;
+    }
+
+    .banner .Unislider {
+        border: none;
+        text-align: center;
+        vertical-align: middle;
+        background-color: rgba(0,0,0,0.2);
+        height: 383px;
+        border-radius: 5px;
+    }
+
+    .banner .Unislider-Image {
+        text-align: center;
+        height: 300px;
+    }
+
+    .banner .Unislider-text {
+        position: relative;
+        bottom: 10px;
+        z-index: 2;
+        text-align: left;
+        width: 100%;
+        /*background: white;
+        opacity: 0.7;*/
+        text-align: center;
+    }
+
+        .banner .Unislider-text h2 span {
+            background-color: #637987;
+            font-size: 30px;
+            font-family: "dinpromedium", Times New Roman, Times, sans-serif;
+            color: #f2f2f2;
+        }
+
+    .banner .DetailLink {
+        margin: 5px 0px 0px;
+        padding: 5px 15px 3px;
+        border-radius: 5px;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        clear: both;
+        font-size: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+        .banner .DetailLink:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .banner .DetailLink:active {
+            -webkit-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+            -moz-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+            -o-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+        }
+
+    .banner .DetailLink {
+        -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+        -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+        -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+    }
+
+        .banner .DetailLink a, .banner .DetailLink a:visited, .banner .DetailLink a:hover {
+            color: rgb(255, 255, 255);
+        }
+
+    .banner .dot {
+        -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+        -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+        -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+    }
+
+    .banner .dots {
+        left: 10px;
+        right: 0px;
+        bottom: 355px;
+        position: absolute;
+    }
+
+        .banner .dots li {
+            margin: 0px 4px;
+            border-radius: 6px;
+            border: 2px solid rgb(255, 255, 255);
+            transition: background 0.5s, opacity 0.5s;
+            width: 10px;
+            height: 10px;
+            text-indent: -999em;
+            display: inline-block;
+            cursor: pointer;
+            opacity: 0.4;
+            -webkit-transition: background .5s, opacity .5s;
+            -moz-transition: background .5s, opacity .5s;
+        }
+
+            .banner .dots li.active {
+                background: rgb(255, 255, 255);
+                opacity: 1;
+            }
