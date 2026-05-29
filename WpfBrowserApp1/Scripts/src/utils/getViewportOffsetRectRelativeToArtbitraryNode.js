@@ -8,8 +8,8 @@ export default function getViewportOffsetRectRelativeToArtbitraryNode(element, e
   const width = Math.max(html.clientWidth, window.innerWidth || 0);
   const height = Math.max(html.clientHeight, window.innerHeight || 0);
 
-  const scrollTop = !excludeScroll ? getScroll(html) : 0;
-  const scrollLeft = !excludeScroll ? getScroll(html, 'left') : 0;
+  const scrollTop = excludeScroll ? 0 : getScroll(html);
+  const scrollLeft = excludeScroll ? 0 : getScroll(html, 'left');
 
   const offset = {
     top: scrollTop - relativeOffset.top + relativeOffset.marginTop,
