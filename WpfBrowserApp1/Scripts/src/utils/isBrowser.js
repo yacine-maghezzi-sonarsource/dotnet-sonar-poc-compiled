@@ -1,1 +1,1 @@
-export default typeof window !== 'undefined' && typeof document !== 'undefined' && typeof navigator !== 'undefined';
+export default globalThis.window !== undefined && globalThis.document !== undefined && globalThis.navigator !== undefined;
