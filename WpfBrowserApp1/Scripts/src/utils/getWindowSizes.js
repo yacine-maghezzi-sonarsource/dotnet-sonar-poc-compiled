@@ -8,9 +8,9 @@ function getSize(axis, body, html, computedStyle) {
     html[`offset${axis}`],
     html[`scroll${axis}`],
     isIE(10)
-      ? (parseInt(html[`offset${axis}`]) + 
-      parseInt(computedStyle[`margin${axis === 'Height' ? 'Top' : 'Left'}`]) + 
-      parseInt(computedStyle[`margin${axis === 'Height' ? 'Bottom' : 'Right'}`]))
+      ? (Number.parseInt(html[`offset${axis}`]) + 
+      Number.parseInt(computedStyle[`margin${axis === 'Height' ? 'Top' : 'Left'}`]) + 
+      Number.parseInt(computedStyle[`margin${axis === 'Height' ? 'Bottom' : 'Right'}`]))
     : 0 
   );
 }
